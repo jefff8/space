@@ -1,0 +1,87 @@
+.view1 {
+  text-align: center;
+}
+.img1 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 160rpx;
+  margin-top: 66rpx;
+}
+.text1 {
+  display: block;
+  margin-top: 36rpx;
+}
+.view2 {
+  display: flex;
+  width: 686rpx;
+  justify-content: space-between;
+  margin-top: 108rpx;
+  border-bottom: 1px solid #EEE;
+}
+.view3 {
+  display: flex;
+  width: 686rpx;
+  justify-content: space-between;
+  margin-top: 46rpx;
+  border-bottom: 1px solid #EEE;
+}
+.text2 {
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #666666;
+  text-align: justify;
+  margin-left: 20rpx;
+}
+.text2-1 {
+  width: 545rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 26rpx;
+  color: #333333;
+  text-align: right;
+}
+.text3-1 {
+  width: 545rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 26rpx;
+  color: #333333;
+  text-align: right;
+}
+.img2 {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 14rpx;
+}
+.img3 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.view2-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36rpx;
+}
+.view2-2 {
+  display: flex;
+  align-items: center;
+}
+.view3-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14rpx;
+}
+.btn {
+  width: 622rpx;
+  height: 88rpx;
+  margin-top: 170rpx;
+  background-image: linear-gradient(45deg, #FF201F 0%, #FF541F 100%);
+  border-radius: 48rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.btn text {
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  color: #FFFFFF;
+}

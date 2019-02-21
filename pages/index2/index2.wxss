@@ -1,0 +1,55 @@
+.view1 {
+  width: 694rpx;
+  height: 251px;
+  margin: 32rpx 0 40rpx 0;
+}
+.view1_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24rpx;
+}
+.image1 {
+  width: 694rpx;
+  height: 160px;
+  border-radius: 10px;
+}
+.text-box {
+  margin-left: 16rpx;
+}
+.image1_1 {
+  width: 32rpx;
+  height: 16px;
+}
+.text1 {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.date-box {
+  display: flex;
+  align-items: center;
+  margin-right: 24rpx;
+}
+.text1_1 {
+  font-size: 24rpx;
+  color: #BBBBBB;
+  letter-spacing: 0;
+  margin-left: 16rpx;
+}
+.view1_2 {
+  height: 48px;
+  margin-top: 16rpx;
+}
+.text1_2 {
+  width: 662rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #7D7D7D;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

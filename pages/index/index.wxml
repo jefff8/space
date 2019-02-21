@@ -1,0 +1,83 @@
+<!--index.wxml-->
+<view class="mask" hidden='{{maskflag}}' bindtap="close_menu" catchtouchmove="preventTouchMove"></view>
+<scroll-view class="scroll"  scroll-y="{{true}}" bindscroll="scrollTopFun" scroll-top="{{scrollTop}}">
+  <view class="container" >
+    <view class="index1">
+      <image class="image1" src="../images/Bitmap.png" />
+      <view class="{{top>185 ? 'view1-fixed': 'view1'}}" catchtouchmove="{{view1_stopmove}}">
+        <!-- 选择城市 -->
+        <view class="view1_1" bindtap='select_city' >
+          <text class="text1">{{city_current}}{{town_current}}</text>
+          <image class="image1_1"  animation="{{animationData1}}" src="../images/Rectangle5Copy2.svg" />
+        </view>
+        <!-- 选择主题 -->
+        <view class="view1_1" bindtap='select_theme'>
+          <text class="text1">{{theme_current}}</text>
+          <image class="image1_1" animation="{{animationData2}}" src="../images/Rectangle5Copy2.svg" />
+        </view>
+      </view>
+      <view wx:if="{{viewShow}}" style="height:44px;"></view>
+      <!-- 城市下拉选项 -->
+      <view class="select-list {{selectOpen ? 'sliddown' : ''}}"  hidden="{{hideOption}}" >
+        <view class="city" catchtouchmove="preventTouchMove">
+          <view 
+            wx:for="{{city_menu}}" wx:for-item="item" wx:for-index="ids" wx:key="keys" 
+            class="{{city_index==ids ? 'city1' : ''}}"
+            bindtap="city_item"
+            data-index="{{ids}}"
+            data-name="{{item.city}}"
+          >
+            <text >{{item.city}}</text>
+          </view>
+        </view>
+        <scroll-view scroll-y="{{true}}" catchtouchmove="preventTouchMove">
+          <view class="town" >
+            <view 
+              wx:for="{{town_menu}}" wx:for-item="item" wx:for-index="ids" wx:key="keys"
+              bindtap="town_item"
+              data-index="{{ids}}"
+              data-name="{{item.town}}"
+            >
+              <text class="{{town_current==item.town ? 'town-text-1' : ''}}">{{item.town}}</text>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+
+      <!-- 主题下拉选项 -->
+      <view class="select-list2 {{selectOpen2 ? 'sliddown' : ''}}" hidden="{{hideOption2}}" catchtouchmove="preventTouchMove">
+        <view 
+          class="theme-box" wx:for="{{theme}}" wx:for-item="item"  wx:for-index="ids" wx:key="keys"
+          bindtap="theme_item"
+          data-index="{{ids}}"
+          data-name="{{item.name}}"
+        >
+          <text class="theme-text {{theme_index==ids ? 'theme-text-color' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+
+    
+    <!-- list -->
+    <block wx:for="{{list}}" wx:for-item="item" wx:for-index="ids" wx:key="keys">
+      <view class="view2" >
+        <view class="view2_1">
+          <image class="image2" src="{{item.img}}"/>
+        </view>
+        <view class='bottom'>
+          <view class="view2_2">
+            <text class="text2">白尾鹿舞蹈工作室</text>
+            <text class="text2_1">福田区龙珠四路金谷创业园F栋</text>
+          </view>
+          <navigator url="../index_A2/index_A2" hover-class="none">
+            <view class="btn2">
+              <image class="image2_1" src="../images/buttom_book.svg" />
+              <text class="text2_2">预约</text>
+            </view>
+          </navigator>
+        </view>
+      </view>
+    </block>
+    
+  </view>
+</scroll-view>

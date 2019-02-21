@@ -1,0 +1,49 @@
+<view class="container">
+  <view class="view1">
+    <image class="image1" src="../images/img_bwl.png" />
+    <view class="view1-1">
+      <text class="text1">白尾鹿舞蹈工作室</text>
+      <view class="btn1">
+        <image class="image1-1" src="../images/buttom_book.svg" />
+        <text class="text1-1">预约</text>
+      </view>
+    </view> 
+  </view>
+
+  <view class="view2">
+    <view class="view2-1">
+      <image class="image2" src="../images/index_A3/icon_introduction.svg" />
+      <text class="text2">商家介绍</text>
+    </view>
+    <view class="view2-2">
+      <text class="text2-1">白尾鹿舞蹈工作室提供丰富的舞蹈教学，每月超过三百堂多样化课程、数十种舞蹈风格，最多元的课程选择、由浅入深渐进式教学，带领您轻鬆踏出舞蹈第一步！白尾鹿舞蹈工作室更俱备专职製作团队，整合软硬体资源、舞蹈编排，办理多项国际街舞大赛，多次获得国际街舞联盟认可。</text>
+    </view>
+  </view>
+  <view class="border"></view>
+  
+  <view class="view3">
+    <view class="view2-1">
+      <image class="image2" src="../images/index_A3/icon_note.svg" />
+      <text class="text2">注意事项</text>
+    </view>
+    <view ><image class="image2-1" src="../images/index_A3/image2.png" /></view>
+    <view class="view3-1">
+      <text class="text2-1">-本票限单人使用，需团体情况下方可使用，团体需20人以上方可开场。
+            -为保证活动顺利进行，建议提前15分钟到场，到场做准备工作，包括存放包物、了解地形，如迟到，时间计入活动时间内。
+            -心脏不适、高血压、颈椎腰椎、酗酒及孕妇等不宜参加。
+
+            -每场活动为3小时——3个半小时。活动安排如下：
+            1. 签到集合
+            2. 群体趣味游戏60分钟（日本馆进行）
+            3.射箭包馆30分钟
+            4.集体永生花手作120分钟
+            5.大合照
+
+            仅限周一至周四使用，周五至周日需+20元/人，趣味游戏场地升级+30元/人
+            咨询电话：18675577842，18307555842
+      </text>
+    </view>
+  </view>
+  
+  <view class="view4"></view>
+</view>

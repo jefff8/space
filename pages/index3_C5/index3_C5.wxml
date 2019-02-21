@@ -1,0 +1,39 @@
+<view class="container">
+  <view class="drop-down">
+    <view class="view1" bindtap='select_city'>
+      <text class="text1">全部类型</text>
+      <image class="image1"  src="../images/Rectangle5Copy2.svg" />
+    </view>
+      
+    <view class="view1" bindtap='select_theme'>
+      <text class="text1">全部</text>
+      <image class="image1" src="../images/Rectangle5Copy2.svg" />
+    </view>
+  </view>
+
+  <view class="exchange">
+    <view class="view2">
+      <input placeholder="请输入兑换码" placeholder-style="color: #BBB;font-size: 26rpx;" />
+      <view class="view2-1">
+        <text class="text2">兑换</text>
+      </view>
+    </view>
+  </view>
+  <navigator url="../index3_C6/index3_C6" hover-class="none">
+    <view class="card">
+      <view class="card-left">
+        <text class="text3">开卡有礼</text>
+      </view>
+      <div class="split-line"></div>
+      <view class="card-right">
+        <view class='money'>
+          <text class="text3-1">200</text>
+          <text class="text3-2">元</text>
+        </view>
+        <image class="image2" src="../images/index3/arrow_right.svg" />
+        <text class="text3-3">全部产品适用</text>
+        <text class="text3-4">有效期至：2018-09-10</text>
+      </view>
+    </view>
+  </navigator>
+</view>

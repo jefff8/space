@@ -1,0 +1,130 @@
+<view class="">
+  <view >
+    <image class="image" src="../images/index_A2.png"  />
+  </view>
+  
+  <view class="view1" >
+    <text class="text1">白尾鹿舞蹈工作室</text>
+    <navigator url="../index_A3/index_A3" hover-class="none">
+      <view class="view2" >
+        <text class="text2">提供豐富的舞蹈教學，每月超過三百堂多樣化課程、數十種舞蹈風格，最多元的課程選擇、由淺入深漸進...</text>
+        <image class="image2" src="../images/index3/arrow_right.svg" />
+      </view>
+    </navigator>
+    <view class="view3">
+      <image class="image3" src="../images/icon_location.svg" />
+      <text class="text3">科技园 龙珠四路金谷创业园F栋, 1.6 km</text>
+      <image class="image4" src="../images/index3/arrow_right.svg" />
+    </view>
+
+    <view class="border"></view>
+    
+    
+    <view class="view4">
+      <view class="view5">
+        <text class="text4">今天</text>
+        <text class="text5">06</text>
+        <text class="border-bottom"></text>
+      </view>
+
+      <view class="view6" wx:for="{{date}}" wx:for-item="item" wx:for-index="ids" wx:key="keys">
+        <text class="text6">{{item.week}}</text>
+        <text class="text7">{{item.day}}</text>
+      </view>
+      
+    </view>
+
+    <view class="view7">
+      <view class="view8">
+        <text class="text8">10:00-12:00</text>
+      </view>
+
+      <view class="view9" wx:for="{{time}}" wx:for-item="item" wx:for-index="ids" wx:key="keys">
+        <text class="text9">{{item.when}}</text>
+      </view>
+    </view>
+
+    <view class="view7">
+      <view class="view9" wx:for="{{time}}" wx:for-item="item" wx:for-index="ids" wx:key="keys">
+        <text class="text9">{{item.when}}</text>
+      </view>
+      <view class="view9">
+        <text class="text9">10:00-12:00</text>
+      </view>
+    </view>
+
+    <view class="border"></view>
+
+    <view class="rules">
+      <text class="rules-text-1">预约须知</text>
+      <view class="rules-view-1"> 
+        <text class="rules-text2">有效期
+              2018-05-10至2018-11-10
+
+              适用人数
+              每张团购券最多1人使用
+
+              规则提醒
+              不再与其他优惠同享
+
+              温馨提示
+              如需团购券发票，请您在消费时向商户咨询
+       </text>
+      </view>
+    </view>
+
+    <view class="border"></view>
+
+    <view class="coupons">
+      <text class="coupons-text-1">优惠券</text>
+      <text class="coupons-text-2">选择优惠券</text>
+      <image class="coupons-image" src="../images/index3/arrow_right.svg" />
+    </view>
+
+    <view class="card">
+      <view class="card-left">
+        <text class="card-text">开卡有礼</text>
+      </view>
+      <view class="card-right">
+        <view class='money'>
+          <text class="text3-1">200</text>
+          <text class="text3-2">元</text>
+        </view>
+        <text class="text3-3">全部产品适用</text>
+        <text class="text3-4">有效期至：2018-09-10</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="bill-bg">
+    <view class="bill-main">
+      <text class="bill-text-1">订单详情</text>
+
+      <view class="border-dotted"></view>
+
+      <view >
+        <view class="bill-view-1">
+          <text class="bill-text-2">预约时间</text>
+          <text class="bill-text-3">2018-09-10  18:00-19:00</text>
+        </view>
+        <view class="bill-view-2">
+          <text class="bill-text-2">原价</text>
+          <text class="bill-text-3">300元</text>
+        </view>
+        <view class="bill-view-2">
+          <text class="bill-text-2">优惠券</text>
+          <text class="bill-text-3">-200元</text>
+        </view>
+      </view>
+    
+
+      <view class="border-dotted2"></view>
+
+      <view class="bill-bottom">
+        <text class="bill-text-2">合计:</text>
+        <text class="bill-text-4">100 元</text>
+        <view class='pay'><text class="bill-text-5">微信支付</text></view>
+      </view>
+    </view>
+  </view>
+</view>

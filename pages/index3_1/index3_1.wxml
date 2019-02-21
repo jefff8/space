@@ -1,0 +1,56 @@
+<view class="container">
+  <view class="view1">
+    <view >
+      <image class="img1" src="../images/index3/myIcon.png" />
+    </view>
+    <text class="text1">Jeff_8</text>
+  </view>
+  
+  
+
+  <view class="view2">
+    <view class="view2-1">
+      <text class="text2">签名</text>
+      <view class="view2-2">
+        <input class="text2-1" placeholder="编辑个性签名" />
+      </view>
+      <image class="img2" src="../images/index3_1/icon_edit.svg" />
+    </view>
+  </view>
+
+  <view class="view3">
+    <view class="view2-1">
+      <text class="text2">生日</text>
+      <view class="view2-2">
+        <input class="text3-1" placeholder="点击填写" />
+        <image class="img2" src="../images/index3_1/icon_edit.svg" />
+      </view>
+    </view>
+  </view>
+
+  <view class="view3">
+    <view class="view2-1">
+      <text class="text2">身高</text>
+      <view class="view2-2">
+        <input class="text3-1" placeholder="点击填写" />
+        <image class="img2" src="../images/index3_1/icon_edit.svg" />
+      </view>
+    </view>
+  </view>
+
+  <view class="view3">
+    <view class="view2-1">
+      <text class="text2">体重</text>
+      <view class="view2-2">
+        <input class="text3-1" placeholder="点击填写" />
+        <image class="img2" src="../images/index3_1/icon_edit.svg" />
+      </view>
+    </view>
+  </view>
+
+  <view class="btn">
+    <text >保存</text>
+  </view>
+
+  
+</view>

@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="view1">
+    <image class="image1" src="../images/index3/myIcon.png" />
+    <navigator url="../index3_1/index3_1" hover-class="none">
+      <view class="view1_1">
+        <text class="text1">Jeff_8</text>
+        <image class="image1_1" src="../images/index3/arrow_right.svg" />
+        <text class="text1_1">快来留下你的个性签名吧</text>
+      </view>
+    </navigator>
+  </view>
+
+  <navigator url="../index3_C3/index3_C3" hover-class="none">
+    <view class="view2">
+      <view class="view2_1">
+        <text class="text2">我的预定</text>
+        <text class="text2_1">3</text>
+      </view>
+      <image class="image2" src="../images/index3/img_booking.svg" />
+    </view>
+  </navigator>
+
+  <navigator url="../index3_C5/index3_C5" hover-class="none">
+    <view class="view3">
+      <view class="view3_1">
+        <text class="text3">优惠券</text>
+        <text class="text3_1">6</text>
+      </view>
+      <image class="image3" src="../images/index3/img_coupon.svg" />
+    </view>
+  </navigator>
+</view>

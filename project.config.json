@@ -1,0 +1,106 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "wx3d6cfca1f811458e",
+	"projectname": "space",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": 0,
+					"name": "index2",
+					"pathName": "pages/index2/index2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index3",
+					"pathName": "pages/index3/index3",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index3_1",
+					"pathName": "pages/index3_1/index3_1",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index_A3",
+					"pathName": "pages/index_A3/index_A3",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index2_B2",
+					"pathName": "pages/index2_B2/index2_B2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index3_C3",
+					"pathName": "pages/index3_C3/index3_C3",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index3_C4",
+					"pathName": "pages/index3_C4/index3_C4",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index3_C5",
+					"pathName": "pages/index3_C5/index3_C5",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index3_C6",
+					"pathName": "pages/index3_C6/index3_C6",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index_A2",
+					"pathName": "pages/index_A2/index_A2"
+				}
+			]
+		}
+	}
+}

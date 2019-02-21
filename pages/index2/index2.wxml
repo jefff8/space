@@ -1,0 +1,21 @@
+<view class="container">
+  <navigator url="../index2_B2/index2_B2" hover-class="none">
+    <block wx:for="{{list}}" wx:for-item="item" wx:for-index="ids"  wx:key="keys">
+      <view class="view1">
+        <image class="image1" src="{{item.img}}" />
+        <view class="text-box">
+          <view class="view1_1">
+            <text class="text1">{{item.title}}</text>
+            <view class="date-box">
+              <image class="image1_1" src="../images/index2/icon_time.svg" />
+              <text class="text1_1">{{item.date}}</text>
+            </view>
+          </view>
+          <view class="view1_2">
+            <text class="text1_2">{{item.text}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </navigator>
+</view>

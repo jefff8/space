@@ -1,0 +1,47 @@
+<view class="container">
+  <view class="main">
+
+    <view class="top">
+      <image class="image1" src="../images/index3_C4/image1.png" />
+      <view class="top-view-1">
+        <text class="text-top-1">白尾鹿舞蹈工作室</text>
+        <text class="text-top-2">已完成</text>
+      </view>
+    </view>
+  
+
+    <view class="border"></view>
+
+    <view class="middle">
+      <view >
+        <text class="middle-text-1">预约时间</text>
+        <text class="middle-text-2">2018-09-10  18:00-19:00</text>
+      </view>
+      <view >
+        <text class="middle-text-1">地点</text>
+        <text class="middle-text-2">科技园 龙珠四路金谷创业园F栋</text>
+      </view>
+      <view >
+        <text class="middle-text-1">原价</text>
+        <text class="middle-text-2">300元</text>
+      </view>
+      <view >
+        <text class="middle-text-1">优惠券</text>
+        <text class="middle-text-2">-200元</text>
+      </view>
+      <view >
+        <text class="middle-text-1">合计:</text>
+        <text class="middle-text-3">100元</text>
+      </view>
+    </view>
+
+    <view class="border"></view>
+
+    <view class="bottom">
+      <textarea class="bottom-view-1" placeholder="请输入您的评价" placeholder-style="color: #BBB;font-size: 26rpx;"></textarea>
+      <view class="btn">
+        <text >保存</text>
+      </view>
+    </view>
+  </view>
+</view>

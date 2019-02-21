@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index3_1/index3_1",
+    "pages/index_A3/index_A3",
+    "pages/index2_B2/index2_B2",
+    "pages/index3_C3/index3_C3",
+    "pages/index3_C4/index3_C4",
+    "pages/index3_C5/index3_C5",
+    "pages/index3_C6/index3_C6",
+    "pages/index_A2/index_A2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "跨界空间",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "场馆预约",
+        "iconPath": "pages/images/tab/tab_booking_normal.png",
+        "selectedIconPath": "pages/images/tab/tab__booking_select.png"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "活动列表",
+        "iconPath": "pages/images/tab/tab_list_normal.png",
+        "selectedIconPath": "pages/images/tab/tab__list_select.png"
+      },
+      {
+        "pagePath": "pages/index3/index3",
+        "text": "个人中心",
+        "iconPath": "pages/images/tab/tab__me_normal.png",
+        "selectedIconPath": "pages/images/tab/tab_me_select.png"
+      }
+    ]
+  }
+}

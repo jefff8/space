@@ -1,0 +1,41 @@
+<!--pages/index2_B2/index2_B2.wxml-->
+<view >
+  <view ><image class="image1" src="../images/index2_B2/image1.png" /></view>
+
+  <view class="view2">
+    <view class="view2-1">
+      <image class="image2" src="../images/index_A3/icon_introduction.svg" />
+      <text class="text2">活动摘要</text>
+    </view>
+    <view class="view2-2">
+      <text class="text2-1">空手道是以动作简单直接，攻击力强见称的一种全方位武术。本会乃由全日本空手道连盟国际公认九段~森田卫教士所创办之日本刚柔流空手道森田会，香港支部。</text>
+    </view>
+  </view>
+  <view class="border"></view>
+
+  <view class="view2">
+    <view class="view2-1">
+      <image class="image2" src="../images/index_A3/icon_introduction.svg" />
+      <text class="text2">活动摘要</text>
+    </view>
+    <view ><image class="image3" src="../images/index2_B2/image2.png" /></view>
+    <view class="view3">
+        <text class="text3">大中华拔刀道居合剑术课程：</text>
+        <text class="text4">共分为五个教程项目：</text>
+        <text class="text3">刀剑礼仪、神礼、人礼、刀礼；刀剑鉴赏、清洁保养、礼仪木刀势法祖太刀稽古传统袋竹刀剑对战试合大中华拔刀道居合剑术型制套路二十一本目：</text>
+        <text class="text3">合共二十一式  拔刀术试斩：三十多个试斩招式</text>
+        <text class="text3">学员学习表现优异者，可以保荐到日本学习及参加比赛进升推荐入门学习古流剑术柳生新阴流、天心流等等有数百年历史承传的古流派剑术。</text>
+    </view>
+  </view>
+
+  <view class="view4">
+    <view ><image class="image4" src="../images/index2_B2/image3.png" /></view>
+    <view class="">
+      <text class="text3"><text>教学方式：</text>专业指导、一对一教学；</text>
+      <text class="text3"><text>道场地址：</text>深圳市南山区龙珠四路金谷创业园F栋跨界空间三楼305道场（维也纳酒店对面、地铁是龙井B出口）</text>
+      <text class="text3"><text>上课时间：</text>每周二、四、六晚19:00-22:00</text>
+    </view>
+  </view>
+
+  <view class="view5"></view>
+</view>

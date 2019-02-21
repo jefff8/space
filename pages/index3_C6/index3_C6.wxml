@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="top">
+    <view class="top-view-1">
+      <text class="top-text-1">开卡有礼</text>
+      <text class="top-text-2">全部产品适用</text>
+    </view>
+    <view class="top-view-2">
+      <text class="top-text-3">200</text>
+      <text class="top-text-4">元</text>
+      <text class="top-text-5">有效期至：2018-09-10</text>
+    </view>
+  </view>
+  
+  <!-- <div class="split-line"></div> -->
+
+  <view class="bottom">
+    <view class="text1">券号：Q0124567624K4</view>
+    <view class="text2">使用说明</view>
+    <view class="text3">
+      <text >1.有效期：2018-8-10至2018-11-10
+          2.适用人数：每张团购券最多1人使用
+          3.此优惠券不能赠予其他人
+          4.此优惠券不可以与其他优惠券同时使用
+      </text>
+    </view>
+    <view class="btn">
+      <text >立刻使用</text>
+    </view>
+  </view>
+</view>

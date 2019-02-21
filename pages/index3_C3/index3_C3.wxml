@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="view-top">
+    <view 
+      class="view-top-1"
+      wx:for="{{orders}}" wx:for-item="item" wx:for-index="ids" wx:key="keys" 
+      bindtap="orders"
+      data-index="{{ids}}"
+    >
+      <text class="orders-type">{{item.type}}</text>
+      <text class="orders-count">{{item.count}}</text>
+      <view class="{{orders_index==ids ? 'view-top-boder' : ''}}"></view>
+    </view>
+    <image class="image" src="../images/index3/img_booking.svg" />
+  </view>
+  
+  <view class="view-list">
+    <navigator url="../index3_C4/index3_C4" hover-class="none">
+      <view class="view-list-1">
+        <image class="image2" src="../images/index3_C3/image.png" />
+        <view class="view-list-2">
+          <text class="text1">拔刀道</text>
+          <text class="text2">待付款</text>
+          <text class="text3">2018-09-10  18:00-19:00</text>
+          <text class="text4">科技园 龙珠四路金谷创业园F栋</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="border"></view>
+</view>
